@@ -1,6 +1,7 @@
-function addition(x,y){
-    sum=a+b;
+const addition=(x,y)=>{
+    sum=x+y;
     return sum;
 };
   
-addition();
+ let answer=addition(5,10);
+console.log(answer)
